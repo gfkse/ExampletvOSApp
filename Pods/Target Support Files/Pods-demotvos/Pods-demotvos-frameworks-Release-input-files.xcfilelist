@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-demotvos/Pods-demotvos-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/S2S-SDK-TVOS/AgentOnly/s2s_sdk_tvos_agent_only.framework/s2s_sdk_tvos_agent_only

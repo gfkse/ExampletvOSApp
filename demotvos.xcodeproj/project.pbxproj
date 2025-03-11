@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5872E1F57767F2BFDE588B9D /* Pods_demotvos_demotvosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A903654676A04B1AD8941 /* Pods_demotvos_demotvosUITests.framework */; };
+		871A38DDAB2772467193B5AE /* Pods_demotvosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5E62B6C1F7B3FFA8516A9D /* Pods_demotvosTests.framework */; };
+		9970EAA9C0C62ED8246B3FE0 /* Pods_demotvos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4712C3C0D92C8022639DEA77 /* Pods_demotvos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D69D376C2D806423003BB661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69D37502D806421003BB661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69D37572D806421003BB661;
+			remoteInfo = demotvos;
+		};
+		D69D37762D806423003BB661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D69D37502D806421003BB661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D69D37572D806421003BB661;
+			remoteInfo = demotvos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16AD8D38C25CC51437B18C50 /* Pods-demotvos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvos.release.xcconfig"; path = "Target Support Files/Pods-demotvos/Pods-demotvos.release.xcconfig"; sourceTree = "<group>"; };
+		33C563EB7EA27AE11918C424 /* Pods-demotvos-demotvosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvos-demotvosUITests.debug.xcconfig"; path = "Target Support Files/Pods-demotvos-demotvosUITests/Pods-demotvos-demotvosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		449FD846E9E9A56BED8F8533 /* Pods-demotvosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvosTests.release.xcconfig"; path = "Target Support Files/Pods-demotvosTests/Pods-demotvosTests.release.xcconfig"; sourceTree = "<group>"; };
+		4712C3C0D92C8022639DEA77 /* Pods_demotvos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demotvos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6A903654676A04B1AD8941 /* Pods_demotvos_demotvosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demotvos_demotvosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A5964470FECFDC4809ED66 /* Pods-demotvos-demotvosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvos-demotvosUITests.release.xcconfig"; path = "Target Support Files/Pods-demotvos-demotvosUITests/Pods-demotvos-demotvosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E6101F33FE56A69CD023C23 /* Pods-demotvosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvosTests.debug.xcconfig"; path = "Target Support Files/Pods-demotvosTests/Pods-demotvosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D40FAE0FF595A638E633D5E4 /* Pods-demotvos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demotvos.debug.xcconfig"; path = "Target Support Files/Pods-demotvos/Pods-demotvos.debug.xcconfig"; sourceTree = "<group>"; };
+		D69D37582D806421003BB661 /* demotvos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demotvos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69D376B2D806423003BB661 /* demotvosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demotvosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D69D37752D806423003BB661 /* demotvosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demotvosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5E62B6C1F7B3FFA8516A9D /* Pods_demotvosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demotvosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D69D375A2D806421003BB661 /* demotvos */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = demotvos;
+			sourceTree = "<group>";
+		};
+		D69D376E2D806423003BB661 /* demotvosTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = demotvosTests;
+			sourceTree = "<group>";
+		};
+		D69D37782D806423003BB661 /* demotvosUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			path = demotvosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D69D37552D806421003BB661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9970EAA9C0C62ED8246B3FE0 /* Pods_demotvos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37682D806423003BB661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871A38DDAB2772467193B5AE /* Pods_demotvosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37722D806423003BB661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5872E1F57767F2BFDE588B9D /* Pods_demotvos_demotvosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884F1141596CD4868B73F2AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D40FAE0FF595A638E633D5E4 /* Pods-demotvos.debug.xcconfig */,
+				16AD8D38C25CC51437B18C50 /* Pods-demotvos.release.xcconfig */,
+				33C563EB7EA27AE11918C424 /* Pods-demotvos-demotvosUITests.debug.xcconfig */,
+				71A5964470FECFDC4809ED66 /* Pods-demotvos-demotvosUITests.release.xcconfig */,
+				8E6101F33FE56A69CD023C23 /* Pods-demotvosTests.debug.xcconfig */,
+				449FD846E9E9A56BED8F8533 /* Pods-demotvosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D69D374F2D806421003BB661 = {
+			isa = PBXGroup;
+			children = (
+				D69D375A2D806421003BB661 /* demotvos */,
+				D69D376E2D806423003BB661 /* demotvosTests */,
+				D69D37782D806423003BB661 /* demotvosUITests */,
+				D69D37592D806421003BB661 /* Products */,
+				884F1141596CD4868B73F2AD /* Pods */,
+				DF8A9F655E591FD2165BFFF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D69D37592D806421003BB661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D69D37582D806421003BB661 /* demotvos.app */,
+				D69D376B2D806423003BB661 /* demotvosTests.xctest */,
+				D69D37752D806423003BB661 /* demotvosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF8A9F655E591FD2165BFFF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4712C3C0D92C8022639DEA77 /* Pods_demotvos.framework */,
+				5E6A903654676A04B1AD8941 /* Pods_demotvos_demotvosUITests.framework */,
+				DD5E62B6C1F7B3FFA8516A9D /* Pods_demotvosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D69D37572D806421003BB661 /* demotvos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69D377F2D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvos" */;
+			buildPhases = (
+				7FFE005964E33E66879E59D8 /* [CP] Check Pods Manifest.lock */,
+				D69D37542D806421003BB661 /* Sources */,
+				D69D37552D806421003BB661 /* Frameworks */,
+				D69D37562D806421003BB661 /* Resources */,
+				94A7D44A1C49D0138BFE4509 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D69D375A2D806421003BB661 /* demotvos */,
+			);
+			name = demotvos;
+			productName = demotvos;
+			productReference = D69D37582D806421003BB661 /* demotvos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D69D376A2D806423003BB661 /* demotvosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69D37822D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvosTests" */;
+			buildPhases = (
+				754B376CFE7370895FC1798E /* [CP] Check Pods Manifest.lock */,
+				D69D37672D806423003BB661 /* Sources */,
+				D69D37682D806423003BB661 /* Frameworks */,
+				D69D37692D806423003BB661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69D376D2D806423003BB661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D69D376E2D806423003BB661 /* demotvosTests */,
+			);
+			name = demotvosTests;
+			productName = demotvosTests;
+			productReference = D69D376B2D806423003BB661 /* demotvosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D69D37742D806423003BB661 /* demotvosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D69D37852D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvosUITests" */;
+			buildPhases = (
+				FB65E8C23B8BA1FA7B642E84 /* [CP] Check Pods Manifest.lock */,
+				D69D37712D806423003BB661 /* Sources */,
+				D69D37722D806423003BB661 /* Frameworks */,
+				D69D37732D806423003BB661 /* Resources */,
+				94883E6D2D96961C028B1963 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D69D37772D806423003BB661 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D69D37782D806423003BB661 /* demotvosUITests */,
+			);
+			name = demotvosUITests;
+			productName = demotvosUITests;
+			productReference = D69D37752D806423003BB661 /* demotvosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D69D37502D806421003BB661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D69D37572D806421003BB661 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D69D376A2D806423003BB661 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D69D37572D806421003BB661;
+					};
+					D69D37742D806423003BB661 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D69D37572D806421003BB661;
+					};
+				};
+			};
+			buildConfigurationList = D69D37532D806421003BB661 /* Build configuration list for PBXProject "demotvos" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D69D374F2D806421003BB661;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D69D37592D806421003BB661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D69D37572D806421003BB661 /* demotvos */,
+				D69D376A2D806423003BB661 /* demotvosTests */,
+				D69D37742D806423003BB661 /* demotvosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D69D37562D806421003BB661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37692D806423003BB661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37732D806423003BB661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		754B376CFE7370895FC1798E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demotvosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FFE005964E33E66879E59D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demotvos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94883E6D2D96961C028B1963 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demotvos-demotvosUITests/Pods-demotvos-demotvosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demotvos-demotvosUITests/Pods-demotvos-demotvosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demotvos-demotvosUITests/Pods-demotvos-demotvosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A7D44A1C49D0138BFE4509 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demotvos/Pods-demotvos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-demotvos/Pods-demotvos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-demotvos/Pods-demotvos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB65E8C23B8BA1FA7B642E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-demotvos-demotvosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D69D37542D806421003BB661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37672D806423003BB661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D69D37712D806423003BB661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D69D376D2D806423003BB661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69D37572D806421003BB661 /* demotvos */;
+			targetProxy = D69D376C2D806423003BB661 /* PBXContainerItemProxy */;
+		};
+		D69D37772D806423003BB661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D69D37572D806421003BB661 /* demotvos */;
+			targetProxy = D69D37762D806423003BB661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D69D377D2D806423003BB661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Debug;
+		};
+		D69D377E2D806423003BB661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D69D37802D806423003BB661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40FAE0FF595A638E633D5E4 /* Pods-demotvos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		D69D37812D806423003BB661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AD8D38C25CC51437B18C50 /* Pods-demotvos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		D69D37832D806423003BB661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6101F33FE56A69CD023C23 /* Pods-demotvosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demotvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/demotvos";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Debug;
+		};
+		D69D37842D806423003BB661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449FD846E9E9A56BED8F8533 /* Pods-demotvosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/demotvos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/demotvos";
+				TVOS_DEPLOYMENT_TARGET = 18.2;
+			};
+			name = Release;
+		};
+		D69D37862D806423003BB661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33C563EB7EA27AE11918C424 /* Pods-demotvos-demotvosUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = demotvos;
+			};
+			name = Debug;
+		};
+		D69D37872D806423003BB661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A5964470FECFDC4809ED66 /* Pods-demotvos-demotvosUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gfk.demotvosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = demotvos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D69D37532D806421003BB661 /* Build configuration list for PBXProject "demotvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D377D2D806423003BB661 /* Debug */,
+				D69D377E2D806423003BB661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69D377F2D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D37802D806423003BB661 /* Debug */,
+				D69D37812D806423003BB661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69D37822D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D37832D806423003BB661 /* Debug */,
+				D69D37842D806423003BB661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D69D37852D806423003BB661 /* Build configuration list for PBXNativeTarget "demotvosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D69D37862D806423003BB661 /* Debug */,
+				D69D37872D806423003BB661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D69D37502D806421003BB661 /* Project object */;
+}
